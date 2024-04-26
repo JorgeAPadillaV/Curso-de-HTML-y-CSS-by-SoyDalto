@@ -1,0 +1,22 @@
+.lista{
+    border: 2px solid black;
+}
+
+.lista__item{
+    color: gray;
+    margin:  10px 0;
+    list-style: square;
+}
+
+.item--danino{
+    color: red;
+}
+
+.item-importante{
+    color: blue;
+}
+
+.lista--vieja{
+    opacity: 0.5;
+
+}

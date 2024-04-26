@@ -1,0 +1,78 @@
+h1{
+    font-family: sans-serif;
+}
+
+/* Cuando se pasa el mouse por encima del elemento*/
+h1:hover{
+    background-color: #ccc;
+    color: blue
+}
+
+/*Mientras se clickea el elemento */
+h1:active{
+    color: red;
+}
+
+/* Selecciona el primer LI*/
+li:first-child{
+    color: red;
+} 
+
+/* Selecciona el ultimo LI*/
+li:last-child{
+    color: violet;
+}
+
+/* Selecciona el elemento del tipo */
+li:nth-of-type(3)
+
+/* Selecciona n elemento*/
+li:nth-child(2){
+    color: green;
+}
+
+/* Selecciona cada n elementos*/
+li:nth-child(3n){
+    color: green;
+}
+
+/* Selecciona los LI dentro de lista pero que no tenga la clase .excluir*/
+.lista li:not(.excluir){
+    color: red;
+}
+
+/* Selecciona el elemento en caso de estar vacio.
+
+    elemento:empty{
+
+*/ 
+
+input[type="checkbox"]{
+    margin: 30px;
+}
+
+input[type="checkbox"]:checked{
+    border: 10px solid black;
+}
+
+/* Selecciona enlaces no visitados*/
+a:link{
+    color: red;
+}
+
+/* Selecciona enlaces visitados*/
+a:active{
+    color: blue;
+}
+
+/* Seleccionando inputs validos*/
+input:valid{
+    color: green
+}
+
+/* Selecciona inputs invalidos*/
+input:invalid{
+    color: red;
+}
+
+/* https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes*/ 

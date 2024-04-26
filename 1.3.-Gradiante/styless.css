@@ -1,0 +1,32 @@
+body{
+    background-color: violet;
+}
+
+.box{
+    width: 1000px;
+    height: 700px;
+    background: url(Fondo.jpg) top / cover;
+    display: block;
+}
+
+.gradiante{
+    margin: auto;
+    background: linear-gradient(#000a, transparent);
+}
+
+h1{
+    font-size: 64px;
+    color: bisque;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-size: 64px;
+    color: bisque;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 350px;
+}
+
+

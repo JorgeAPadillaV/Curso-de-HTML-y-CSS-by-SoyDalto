@@ -1,0 +1,33 @@
+body{
+    background-color: #ccc;
+}
+
+div{
+    width: 150px;
+    background-color: #f00;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+div:hover{
+    outline: 10px solid black;
+}
+
+input{
+    margin: 50px;
+    border: none;
+    border-top: 3px solid black;
+
+    padding: 6px;
+}
+
+input:focus{
+    border-color: blue;
+    color: blue;
+}
+
+input:focus-visible{
+    outline: none;
+}

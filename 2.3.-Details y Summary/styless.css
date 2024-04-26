@@ -1,0 +1,15 @@
+body{
+    background: #666;
+}
+
+details{
+    border: 1px solid #AAA;
+    padding: 10px;
+    margin: 15px 5px;    
+    color: #ddd;
+    font-size: 16px;
+}
+
+summary{
+    font-size: 0.7em;
+}

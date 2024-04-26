@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    font: sans-serif;
+}
+
+/*
+object-fit
+https://developer.mozilla.org/es/docs/Web/CSS/object-fit
+*/
+.fill{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 50px;
+    object-fit: fill;
+}
+
+.fill{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 50px;
+    object-fit: fill;
+}
+
+.contain{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 50px;
+    object-fit: contain;
+}
+
+.cover{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 50px;
+    object-fit: cover;
+}
+
+.none{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 50px;
+    object-fit: none;
+}
+
+.slace-down{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 50px;
+    object-fit: slace-down;
+}

@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color:#444;
+    box-shadow: 0 0 100px 5px rgba(71, 15, 237, 0.467);
+    
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    width: 1600px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 100px 100px red;
+}
+
+

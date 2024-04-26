@@ -1,0 +1,30 @@
+/*
+
+img[src="logo.png"]
+img[src^="logo"] : ^ significa que "Empieza con"
+img[src$="png"]  : $ significa que "Termina con"
+
+A B : Significa que modificara todo B que este adentro de A
+
+A > B : Significa que solo modificara a los B que son hijos de A
+
+A + B : Significa que modificara a los B que van despues de un A
+
+A ~ B : Significa que modificara a todos los B que sigan de un A
+
+Todos estos se pueden combinar, por ejemplo:
+
+A + B + C
+
+A > B > C + D
+*/
+
+img[src="logo.png"]{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+ul li{
+    color: red;
+}

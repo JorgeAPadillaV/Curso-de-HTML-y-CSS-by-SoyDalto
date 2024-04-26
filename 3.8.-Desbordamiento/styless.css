@@ -1,0 +1,25 @@
+.visible{
+    width: 250px;
+    height: 250px;
+    border: dotted;
+    overflow: visible; /* dibuja barras si es necesario */
+    
+}
+
+.hidden{
+    width: 250px;
+    height: 250px;    border: dotted;
+    overflow: hidden; /* dibuja barras si es necesario */
+}
+
+.scroll{
+    width: 250px;
+    height: 250px;    border: dotted;
+    overflow: scroll; /* dibuja barras si es necesario */
+}
+
+.auto{
+    width: 250px;
+    height: 250px;    border: dotted;
+    overflow: auto; /* dibuja barras si es necesario */
+}

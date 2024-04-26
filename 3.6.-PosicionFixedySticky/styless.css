@@ -1,0 +1,32 @@
+div{
+    position: fixed;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+}
+
+.contenedor{
+    position: relative;
+    border: 1px solid black;
+    margin: 5px 25px;
+}
+
+#one {
+    position: fixed;
+    top: 80px;
+    left: 10px;
+    background: blue;
+}
+
+.outer {
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    padding-left: 150px;
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <link rel="icon" href="">
+    <title>Html Avanzado</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="robots" content="">
+    <meta name="title" content="">
+</head>
+<body>
+    <!-- label, textarea -->
+    <form>
+        <h2>Formulario de contacto</h2>
+        <div class="form_input">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" placeholder="Jorge A Padilla V" id="nombre">
+        </div>
+        <div class="form_input">
+            <label for="email">Email</label>
+            <input type="email" placeholder="ejemplo@email.com" id="email">
+        </div>
+        <!-- Select y Option -->
+        <div class="form_input">
+            <label for="opciones">Tipo de usuario
+                <select name="" id="">
+                    <option value="user1">Opcion 1</option>
+                    <option value="user2">Opcion 2</option>
+                    <option value="user3">Opcion 3</option>
+                </select>
+            </label>
+        </div>
+        <!-- Datalist y Option -->
+        <div class="form_input">
+            <label for="opciones">Referente
+                <input list="referente">
+                <datalist name="type-of-user" id="referente">
+                    <option value="Opcion 1">Descripcion 1</option>
+                    <option value="Opcion 2">Descripcion 2</option>
+                    <option value="Opcion 3">Descripcion 3</option>
+                </datalist>
+            </label>
+        </div>
+        <!-- Textarea -->
+        <div class="form_input">
+            <label for="Mensaje"></label>
+            <textarea id="Mensaje" cols="30" rows="10" placeholder="Deja tu msg"></textarea>
+        </div>
+        <div class="form_input">
+            <label for="condiciones">Accepto los <a href="referencia.html" target="_blank">termino y condiciones</a></label>
+            <input type="checkbox" id="condiciones" class="checkbox">
+        </div>
+    </form>    
+</body>
+</html>
