@@ -1,0 +1,97 @@
+#container > div {
+    display: flex;
+    font-family: "Courier New", "Lucida Console", monospace;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+#container > div > div {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(-45deg, #788cff, #b4c8ff);
+}
+
+#flex-start {
+    justify-content: flex-start;
+}
+
+#center {
+    justify-content: center;
+}
+
+#flex-end {
+    justify-content: flex-end;
+}
+
+#space-between {
+    justify-content: space-between;
+}
+
+#space-around {
+    justify-content: space-around;
+}
+
+.align-items-strech{
+    max-width: 1000px;
+    height: 500px;
+    margin: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: strech;
+}
+
+.align-items-center{
+    max-width: 1000px;
+    height: 500px;
+    margin: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.align-items-start{
+    max-width: 1000px;
+    height: 500px;
+    margin: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+}
+
+.align-items-end{
+    max-width: 1000px;
+    height: 500px;
+    margin: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: end;
+}
+
+.flex-items{
+    width: 20%;
+    height: 20%;
+    background-color: #f77;
+    margin: 10px;
+    font-size: 32px;
+    text-align: center;
+    color: #FFF;
+}
+
+.centrado{
+    border: 1px solid black;
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+    display: flex;    /**/
+}
+
+.centrado__div{
+    margin: auto;/**/
+    width: 100px;
+    height: 100px;
+    background-color: #788cff;
+}
