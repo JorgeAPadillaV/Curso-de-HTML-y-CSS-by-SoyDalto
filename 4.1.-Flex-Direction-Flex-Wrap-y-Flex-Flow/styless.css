@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flexbox{
+    max-width: 1000px;
+    margin: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox:hover{
+    flex-direction: row-reverse;
+}
+
+.flex-wrap{
+    max-width: 1000px;
+    margin: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-flow{
+    max-width: 1000px;
+    margin: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-items{
+    width: 200px;
+    height: 100px;
+    background-color: #f77;
+    margin: 10px;
+    font-size: 32px;
+    text-align: center;
+    color: #FFF;
+}
+
+.flex-items:nth-child(2n){
+    background-color: #911;
+}
+
