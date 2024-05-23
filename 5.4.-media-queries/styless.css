@@ -6,3 +6,20 @@ body{
 div,body{
     box-sizing: border-box;
 }
+
+.flexbox{
+    display: flex;
+}
+
+.flex-item{
+    background-color: #ccc;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+@media screen and (max-width:480px){
+    .flexbox{
+        flex-direction: column;
+    }
+}
