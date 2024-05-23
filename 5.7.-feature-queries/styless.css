@@ -6,3 +6,25 @@ body{
 div,body{
     box-sizing: border-box;
 }
+
+@supports (color: oklch(30% 0.2 30)){
+    body{
+        color: oklch(30% 0.2 30)
+    }
+}
+
+@supports (display: grid){
+    body{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@supports not (display: flex){
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        flex-basis: 0;
+    }
+}
