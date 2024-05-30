@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    background-color: #222;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{
+    padding: 10px 40px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 6px;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.btn-1{
+    border: 1px solid #48e;
+    overflow: hidden;
+}
+
+.btn-1::before{
+    content: '';
+    background-color: #48e;
+    display: block;
+    height: 200%;
+    width: 140%;
+    position: absolute;
+    z-index: -1;
+    transition: top .6s, left .6s;
+    border-radius: 50%;
+    top: 100%;
+    left: 30%;
+}
+
+.btn-1:hover::before{
+    top: -35%;
+    left: -20%;
+}
+
+/* --- NEON BUTTON --- */
+
+.btn-2{
+    border: 1px solid #fff3;
+    color: #fff3;
+}
+
+.btn-2:hover{
+    
+    animation: parpadear 1s infinite alternate backwards;
+}
+
+@keyframes parpadear{
+    0%, 20%, 40%, 60%, 80%{
+        color: #fff3;
+        border: 1px solid #fff3;
+        text-shadow: 0px;
+        box-shadow: 0px;
+    }
+    15%, 35%, 55%, 75%, 100% {
+        border-color: #48e;
+        color: rgb(111, 168, 255);
+        box-shadow: 0px 0px 6px #48e4, 0px 0px 16px #48e5;
+        text-shadow: 0px 0px 9px #48ee, 0px 0px 3px rgba(159, 197, 255, 0.454);
+    }
+}
