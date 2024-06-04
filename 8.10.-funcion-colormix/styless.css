@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box{
+    font-size: 30px;
+    padding: 10px 40px;
+    margin: 25px;
+    height: 300px;
+    border: 6px solid black;
+    background-color: color-mix(in srgb, #48e 50%, black 80%);
+}
