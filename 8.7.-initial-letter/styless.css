@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box{
+    font-size: 30px;
+    padding: 10px 40px;
+    margin: 25px;
+    border: 6px solid black;
+}
+
+p::first-letter{
+    initial-letter: 2 1;
+}
