@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+:root{
+    --color-principal: #48e;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.box{
+    margin: 120px auto;
+    font-size: 30px; 
+    padding: 0 40px;
+    font-size: clamp(2.4rem,2.2vw,4rem);
+    border: 6px solid black;
+}
