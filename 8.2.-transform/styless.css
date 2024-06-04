@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    background-color: #48e;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    margin: auto;
+    padding: 20px 50px; 
+    border: 1px solid black; 
+    width: fit-content;
+    margin: 20px;
+}
+
+.scale{
+    scale: .5;
+}
+
+.skew{
+    transform: skew(20deg);
+}
+
+.rotate{
+    transform: rotate(20deg)
+}
+
