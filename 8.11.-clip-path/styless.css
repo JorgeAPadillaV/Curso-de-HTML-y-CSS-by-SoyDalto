@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.circle{
+    padding: 50px;
+    max-width: 100%;
+    clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+}
