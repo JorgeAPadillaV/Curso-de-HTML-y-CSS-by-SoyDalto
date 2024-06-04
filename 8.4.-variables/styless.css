@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.box{
+    --color-principal: #f44;
+    background-color: var(--color-principal);
+    display: grid;
+    place-content: center;
+    color: #fff;
+    margin: 120px auto;
+    font-size: 30px; 
+    padding: 0 40px;
+    font-size: clamp(2.4rem,2.2vw,4rem);
+                /*Minimo, Ideal y Maximo*/
+}
+
+h1{
+    font-size: 2.4em;
+    margin-bottom: 0;
+}
