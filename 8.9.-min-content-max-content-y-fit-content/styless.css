@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box{
+    font-size: 30px;
+    padding: 10px;
+    margin: 25px;
+    border: 1px solid black;
+}
+
+.width-auto{
+    width: auto;
+}
+
+.width-min{
+    width: min-content;
+}
+
+.width-max{
+    width: max-content;
+}
+
+.width-fit{
+    width: fit-content;
+}
