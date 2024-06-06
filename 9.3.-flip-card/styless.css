@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body, div, ul, li, a, h1, h2, h3, h4, p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    --bg-color: color-mix(in srgb, #f62 70%, #fff);
+    --card-color: #fff;
+    --card-bg-color: #fff3;
+    --dark-color: #f62;
+    --text-color: #444;
+    background-color: var(--bg-color);
+    font-family: Montserrat;
+}
+
+.card{
+    max-width: clamp(280px, 50%, 360px);
+    background-color: var(--card-bg-color);
+    margin: 50px auto;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card__back, .card__front{
+    backface-visibility: hidden;
+    transition: transform 1s;
+    background-color: var(--card-color);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card:hover .card__front{
+    transform: perspective(900px) rotateY(180deg);
+}
+
+.card:hover .card__back{
+    transform: perspective(900px) rotateY(0);
+}
+
+.card__front{
+    transform: perspective(900px) rotateY(360deg);
+}
+
+.card__back{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    transform: perspective(900px) rotateY(180deg);
+}
+
+.card__worker{
+    max-height: 200px;
+    overflow: hidden;
+    display: block;
+}
+
+.card__worker img{
+    max-width: 100%;
+}
+
+.card__data{
+    padding: 12px;
+}
+
+.card__data span{
+    font-size: 1.4rem;
+    margin: 6px 0;
+    display: block;
+}
+
+.skill-bar{
+    border: 3px solid var(--bg-color);
+    margin: 12px;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.skill-bar div{
+    background-color: var(--bg-color);
+    padding: 9px;
+    color: var(--card-color);
+}
+
+.skill-bar:first-child div{
+    width: 80%;
+}
